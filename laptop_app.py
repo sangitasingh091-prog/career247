@@ -16,7 +16,7 @@ touchscreen=st.pills("Does the laptop have touchscreen?",['Yes','No'],default='N
 ips=st.pills("Does the laptop have an IPS display?",['Yes','No'],default='No')
 cpu_speed=st.slider("Clock Speed of CPU(in GHz)",min_value=0.9,max_value=3.6,step=0.1,value=2.3)
 hdd=st.radio("Hard disk size on the system(in GB). If only SSD is present, select this is as 0",
-              [0,512,1024,2000],horizontal=True)
+               [0,512,1024,2000],horizontal=True)
 ssd=st.pills("SSD storage on the system(in GB).",[0,256,512,1024,2000],default=512)
 screen_size=st.slider("Screen size(measured diagonally, in inches)",min_value=10.0,max_value=18.4,value=15.6,step=0.1)
 screen_resolution=st.selectbox("Laptop Screen Resolution (in pixels)",
